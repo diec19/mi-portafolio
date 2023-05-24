@@ -1,6 +1,8 @@
 import Image from 'next/image'
-import Header from './components/Header'
-import Inicio from './components/Inicio'
+import Header from './components/page/Header'
+import Inicio from './components/page/Inicio'
+import SobreMi from './components/page/SobreMi'
+import Habilidades from './components/page/Habilidades'
 
 export default function Home() {
 
@@ -22,12 +24,12 @@ export default function Home() {
         </section>
 
         <section>
-          Sobre mi
+          <SobreMi/>
 
           <hr />
         </section>
         <section>
-          Habilidades
+         < Habilidades/>
 
           <hr />
         </section>
