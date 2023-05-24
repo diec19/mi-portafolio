@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Typewrite = () => {
   return (
     <div className='App'>
-    <h1 style={{ paddingTop: '10px', margin: 'auto 0', fontWeight: 'normal',fontSize:'50px'}}>
+    <h1 style={{ paddingTop: '10px', margin: 'auto 0', fontWeight: 'normal',fontSize:'70px'}}>
       I'm a{' '}
       <span style={{ color: 'blue', fontWeight: 'bold' }}>
         {/* Style will be inherited from the parent element */}
@@ -20,6 +20,7 @@ const Typewrite = () => {
         />
       </span>
     </h1>
+   
   </div>
   )
 }

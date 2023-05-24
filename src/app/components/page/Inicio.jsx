@@ -11,7 +11,8 @@ const Inicio = () => {
   <div className="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
     <div className="hidden md:block mb-20 md:mb-0 sm:px-6">
       <div className="relative">
-        <img className="rounded-lg" src="/imagenes/editada.jpg" alt="Image Description"/>
+        <img className="rounded-full w-90 h-90 mx-auto" src="/imagenes/editada.jpg" alt="Image Description"/>
+        <img className="rounded-full w-100 h-100 mx-auto" />
 
        
         <div className="absolute bottom-0 left-0 -z-[1] translate-y-10 -translate-x-14">
@@ -86,10 +87,12 @@ const Inicio = () => {
           <div className="flex items-center">
             
             <div className="ml-4 md:ml-0">
-              <div className="text-base font-semibold text-gray-800 dark:text-gray-200 text-4xl">Hi, i'm Diego</div>
-              <div className="text-xs text-gray-500 dark:text-gray-400 text-2xl">analyst programmer and web developer</div>
+              <div className="flex items-center text-base font-semibold text-gray-800 dark:text-gray-200 text-5xl">Hi, i'm Diego   <span> <img className="w-20 h-20 mx-auto" src="/imagenes/hola.png" alt='a'/></span></div>
+              
             </div>
+           
           </div>
+           <div className="text-xs text-gray-500 dark:text-gray-400 text-5xl">analyst programmer and web developer</div>
         </footer>
 
         

@@ -20,13 +20,14 @@ export default function Home() {
         <section>
           <Inicio />
 
-          <hr />
+          
         </section>
+
 
         <section>
           <SobreMi/>
 
-          <hr />
+         
         </section>
         <section>
          < Habilidades/>
